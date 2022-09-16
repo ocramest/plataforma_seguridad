@@ -1,0 +1,162 @@
+@font-face {
+font-family: DINMittelschriftStd;
+src: url("DINMittelschriftStd.otf");
+}
+
+body {
+font-family: DINMittelschriftStd, Arial;
+background-color: #303040;
+margin: 0px 0px;
+padding: 0px 0px;
+border-style: none;
+}
+
+#top_row_title {
+background-color: #4c4c59;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0 0;
+}
+
+#top_row {
+background-color: #4c4c59;
+}
+
+#filters_row_title {
+background-color: #c1ced9 !important;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0 0;
+}
+
+#filters_row {
+background-color: #c1ced9 !important;
+}
+
+#dwnld_row {
+background-color:#999999;
+}
+
+#lab_row_title {
+background-color: #c1ced9;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0 0;
+}
+
+#graph_row {
+background-color: #c1ced9;
+border-bottom: #999999 solid 4rem;
+}
+
+#map_row {
+background-color: #c1ced9;
+}
+
+.title {
+padding-top: 1.3rem;
+color: white;
+text-align: left;
+}
+
+.title2 {
+padding-top: 1.3rem;
+color: black;
+text-align: left;
+}
+
+.top_img {
+height: 6rem;
+width: auto;
+margin: 1rem auto;
+}
+
+.top_cols {
+padding-bottom: 1.3rem;
+color: white;
+text-align: center;
+}
+
+.title_cols {
+padding-top: .2rem;
+padding-bottom: .3rem;
+color: black;
+text-align: center;
+}
+
+.filters_cols {
+padding-top: 1.3rem;
+padding-bottom: 1.3rem;
+}
+
+.graph_cols {
+padding-bottom: 0rem;
+}
+
+.map_cols {
+padding-bottom: 0rem;
+}
+
+.last_month {
+text-align: center;
+}
+
+.last_month2 {
+text-align: center;
+color: #58a690;
+}
+
+#graph {
+margin: 0 auto;
+}
+
+#graph_selection {
+padding-top: 3rem;
+}
+
+
+#map_selection {
+padding-top: 3rem;
+}
+
+#refresh {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.5rem;
+margin: 1.5rem auto;
+}
+
+#dwnld {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.5rem;
+margin: 1.5rem auto;
+}
+
+#apply {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.5rem;
+margin: 1.5rem auto;
+}
+
+#rmv_fltrs {
+margin-top: 0rem;
+margin-left: 0rem;
+}
+
+h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 2.5rem;
+}
